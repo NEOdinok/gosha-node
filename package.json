@@ -1,0 +1,33 @@
+{
+  "name": "gosha-node",
+  "version": "1.0.1",
+  "description": "gosha node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEOdinok/gosha-node"
+  },
+  "author": "gosha",
+  "type": "module",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NEOdinok/gosha-node/issues"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.15",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "validator": "^13.15.0"
+  }
+}
