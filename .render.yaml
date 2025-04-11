@@ -1,0 +1,5 @@
+build:
+  command: pnpm install --frozen-lockfile
+  env:
+    - key: NODE_VERSION
+      value: 22.14.0
